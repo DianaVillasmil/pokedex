@@ -13,7 +13,8 @@ body {
 	background-image: url("../img/pokemon_background.jpg");;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	background-position-y: -418px;
+	background-size: cover;
+	background-position: bottom center;
 }
 
 h1 {
@@ -41,6 +42,7 @@ i {
 
 .group { 
 	position:relative; 
+	display: inline-block;
 	margin-bottom:45px; 
 }
 
