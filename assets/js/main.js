@@ -65,7 +65,7 @@ function mostrarContenido(){
 
 function ajaxPokemonDetalle(id) {
     $.ajax({
-        url: 'http://pokeapi.co/api/v2/pokemon/' + id + '/',
+        url: 'https://pokeapi.co/api/v2/pokemon/' + id + '/',
         type: "GET",
         datatype: "json",
         data: {}
@@ -82,7 +82,7 @@ function ajaxPokemonDetalle(id) {
 
 function ajaxPokemon(id) {
     $.ajax({
-        url: 'http://pokeapi.co/api/v2/pokemon-species/' + id + '/',
+        url: 'https://pokeapi.co/api/v2/pokemon-species/' + id + '/',
         type: "GET",
         datatype: "json",
         data: {}
@@ -99,7 +99,7 @@ function ajaxPokemon(id) {
 
 function ajaxPokedexNacional() {
     $.ajax({
-        url: "http://pokeapi.co/api/v2/pokedex/1/",
+        url: "https://pokeapi.co/api/v2/pokedex/1/",
         type: "GET",
         datatype: "json",
         data: {}
